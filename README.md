@@ -71,6 +71,18 @@ These examples are self-contained and can be extended for your own experiments. 
 
 Software-ready for twisted graphene prototypes (moiré for C≠0 states, ~3x noise resistance).
 
+Examples
+
+Explore how to use the Cosmic Emanator layer in real-world settings:
+
+Example	Description
+
+examples/basic/forward_pass_demo.py	Simple forward pass using TFNP on a random tensor.
+examples/basic/parameter_exploration.ipynb	Jupyter notebook visualizing how alpha, phi, and f affect output flow.
+examples/integration/model_integration.py	Builds a full PyTorch model with TFNP integrated as a convolutional replacement.
+examples/applications/cifar10_noise_demo.py	CIFAR-10 classification with noise injection—benchmarks TFNP vs standard CNN.
+examples/simulations/entropy_sim.py	Simulates entropy growth (ΔS) over time—aligns with black hole analogs.
+
 ## License
 
 MIT – Open for research; commercial use requires citation/collaboration.
